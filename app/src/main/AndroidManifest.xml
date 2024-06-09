@@ -19,10 +19,13 @@
             android:theme="@style/Theme.EC1_ROJAS_PIERRE">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".SalaryActivity" android:exported="true" />
+        <activity android:name=".AverageActivity" android:exported="true" />
+        <activity android:name=".TimeActivity" android:exported="true" />
+        <activity android:name=".SumActivity" android:exported="true" />
     </application>
 
 </manifest>
